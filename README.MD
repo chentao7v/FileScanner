@@ -11,7 +11,7 @@
 2. 收集文件只需执行如下代码：
 
    ```kotlin
-   val list : List<File> = FileScaner(filter).scan(); // 返回扫描的结果
+   val list : List<File> = FileScanner(filter).scan(directory); // 返回扫描的结果
    ```
 
 3. 需要删除不必要的文件？执行如下代码：
@@ -20,6 +20,7 @@
    val result : List<File> = FileCleaner().clean(list); // 返回剩余的文件
    ```
 
+4. [完整示例](https://github.com/chentao7v/FileScanner/blob/master/app/src/main/java/me/neil/example/MainActivity.kt)
 
 
 ### 支持功能：
