@@ -75,13 +75,3 @@ open class FileScanner(
     }
   }
 }
-
-/**
- * 日志文件扫描器
- */
-class LogFileScanner : FileScanner(XLogFileFilter())
-
-/**
- * 所有文件扫描器
- */
-class AllFileScanner : FileScanner(NoneFileFilter())

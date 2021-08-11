@@ -7,7 +7,7 @@ import java.io.File
  *
  * create by Neil on 2021-07-17.
  */
-class XLogFileFilter : FileFilter {
+class LogFileFilter : FileFilter {
   override fun filter(file: File): Boolean {
     return file.name.endsWith(".xlog")
   }
