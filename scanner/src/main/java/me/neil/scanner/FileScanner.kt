@@ -79,4 +79,4 @@ open class FileScanner(
 /**
  * 日志文件扫描器
  */
-class LogFileScanner : FileScanner(LogFileFilter())
+class LogFileScanner : FileScanner(XLogFileFilter())
