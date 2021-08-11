@@ -1,4 +1,4 @@
-package me.neil.scanner
+package me.neil.example
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

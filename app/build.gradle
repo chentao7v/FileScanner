@@ -7,7 +7,7 @@ android {
   compileSdk 30
 
   defaultConfig {
-    applicationId "me.neil.scanner"
+    applicationId "me.neil.example"
     minSdk 21
     targetSdk 30
     versionCode 1
