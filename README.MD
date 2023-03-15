@@ -45,3 +45,9 @@ val sources : List<File> = FileScanner(filter).scan(directory);
 ```kotlin
 AutoFileSizeCleaner(8,10).clean(sources)
 ```
+
+
+
+流程图：
+
+<img src="./images/img.png" width="80%;" />
