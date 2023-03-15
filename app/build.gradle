@@ -36,7 +36,7 @@ dependencies {
   implementation 'com.google.android.material:material:1.4.0'
   implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
 
-  implementation project(':scanner')
-//  implementation 'io.github.chentao7v:file-scanner:1.0.0'
+//  implementation project(':scanner')
+  implementation 'io.github.chentao7v:file-scanner:1.0.1'
 
 }
